@@ -8,7 +8,8 @@ var svg = d3.select("#chart")
         .attr("height", height + margin.top + margin.bottom)
     .append("g")
         .attr("transform","translate("+margin.left+","+margin.top+")");
-
+var egg = document.createElement("img");
+    egg.src="https://aryatra.com/wp-content/uploads/2019/05/i-am-inevitable-thanos.jpg";
 
 var moviePromise = d3.csv("box.csv")
     var success = function(data)

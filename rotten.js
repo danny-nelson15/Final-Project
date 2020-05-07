@@ -47,7 +47,7 @@ var moviePromise = d3.csv("rotten.csv")
   
   var z = d3.scaleSqrt()
     .domain([d3.min(data, function(d) { return d.Rating; }), 1])
-    .range([2, 10]);
+    .range([1, 13]);
     
 
  

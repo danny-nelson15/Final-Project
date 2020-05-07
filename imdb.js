@@ -47,7 +47,7 @@ var moviePromise = d3.csv("imdb.csv")
   
   var z = d3.scaleSqrt()
     .domain([d3.min(data, function(d) { return d.Rating; }), 9.1])
-    .range([3, 10]);
+    .range([1, 12]);
     
 
  
